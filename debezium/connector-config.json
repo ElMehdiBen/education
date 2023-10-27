@@ -1,0 +1,14 @@
+{
+  "name": "my-pg-connector",  
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector", 
+    "plugin.name": "pgoutput",
+    "database.hostname": "95.111.225.85", 
+    "database.port": "5434", 
+    "database.user": "postgres", 
+    "database.password": "mysecretpassword", 
+    "database.dbname" : "postgres", 
+    "database.server.name": "postgres", 
+    "table.include.list": "public.newtable" 
+  }
+}
